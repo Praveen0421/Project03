@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  background-color: #2b2922;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.logo {
+  position: relative;
+  left: 120px;
+  bottom: 5px;
+  height: 50px;
+}
+.list-and-btn {
+  position: relative;
+  left: 530px;
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+}
+.list-item {
+  list-style-type: none;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  color: #969696;
+  margin: 0px 25px;
+}
+.item1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+.nav-btn {
+  position: relative;
+  left: 30px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 18px 30px;
+  border: 1.5px solid #a79743;
+  border-radius: 12px;
+  background-color: #2b2922;
+  color: #a79743;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.text-content {
+  position: relative;
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-content h1 {
+  position: relative;
+  font-family: Montserrat;
+  font-size: 88px;
+  font-weight: 800;
+  line-height: 1.4em;
+  color: #ffffff;
+}
+.text-content p {
+  position: relative;
+  right: 40px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #ffffff;
+}
+.law-img {
+  position: relative;
+  margin-top: 90px;
+  height: 685px;
+  overflow: hidden;
+}
+.justice-img {
+  position: relative;
+  bottom: 260px;
+  height: 1100px;
+  width: 100%;
+}
+.left-right-btn {
+  display: flex;
+  justify-content: right;
+}
+.left-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #efebd812;
+}
+.right-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #a79743;
+}
+.left-box .left-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  font-family: Sofia;
+  border-radius: 50px;
+  border: 2px solid #a79743;
+  color: #a79743;
+}
+.right-box .right-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+  font-family: Sofia;
+  border-radius: 50px;
+  background-color: #a79743;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
