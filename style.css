@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 .container {
-  display: flex;
   background-color: #2b2922;
 }
 nav {
@@ -94,6 +93,7 @@ nav {
   height: 1100px;
   width: 100%;
 }
+
 .left-right-btn {
   display: flex;
   justify-content: right;
