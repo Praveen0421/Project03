@@ -37,6 +37,9 @@ nav {
   color: #969696;
   margin: 0px 25px;
 }
+.list-item:hover {
+  color: #a79743;
+}
 .item1 {
   font-weight: 600;
   color: #ffffff;
@@ -52,6 +55,11 @@ nav {
   border-radius: 12px;
   background-color: #2b2922;
   color: #a79743;
+}
+.nav-btn:hover {
+  background-color: #2b2922;
+  color: #fcfcfc;
+  border: 1.5px solid #f8f8f7;
 }
 .hero {
   display: flex;
